@@ -98,6 +98,9 @@ class distancePlot:
         else:
             self._get_data()
 
+    def run(self):
+        self._populate_lists()
+
     @property
     def _t(self):
         return self.data['# t (s)']
