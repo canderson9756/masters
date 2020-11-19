@@ -42,6 +42,8 @@ class distancePlot:
 
         self._populate_lists()
 
+        self.plot()
+
     def find_max(self, small, large):
 
         small_range = small[small['freq'] < 1e9]
@@ -83,7 +85,6 @@ class distancePlot:
 
         plt.savefig('Frequencies against distance')
 
-        plt.show()
         return
 
     def _get_data(self):

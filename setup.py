@@ -7,6 +7,5 @@ setup(
     description='Code for masters analysis',
     url='https://github.com/canderson9756/masters',
     authour='Cameron Anderson',
-    packages=['STNO_analysis'],
-    install_requires='requirements.txt'
+    packages=['STNO_analysis']
 )
